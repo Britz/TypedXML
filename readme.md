@@ -1,4 +1,4 @@
-# TypedJSON
+# TypedXML
 
 Typed XML parsing and serializing that preserves type information. Parse XML into actual class instances. Recommended (but not required)
 to be used with reflect-metadata (global installation): https://github.com/rbuckton/ReflectDecorators. 
