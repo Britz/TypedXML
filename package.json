@@ -1,10 +1,10 @@
 {
-  "name": "typedjson",
+  "name": "typedxml",
   "version": "0.1.5",
   "description": "Typed JSON parsing and serializing for TypeScript that preserves type information, using decorators. Parse JSON into actual class instances.",
-  "main": "js/index.js",
+  "main": "bin/index.js",
   "typescript": {
-    "definition": "./js/index.d.ts"
+    "definition": "./bin/index.d.ts"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,10 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/JohnWhiteTB/TypedJSON.git"
   },
-  "author": "John White",
+  "author": "Jochen Britz",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JohnWhiteTB/TypedJSON/issues"
   },
-  "homepage": "https://github.com/JohnWhiteTB/TypedJSON"
+  "homepage": "https://github.com/JohnWhiteTB/TypedJSON",
+  "dependencies": {
+    "cxml": "^0.1.0"
+  },
+  "devDependencies": {
+    "cxsd": "^0.1.0"
+  }
 }
